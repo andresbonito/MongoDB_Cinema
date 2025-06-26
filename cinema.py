@@ -3,9 +3,9 @@ import pandas as pd
 from movie_data import create_movie_data
 
 # Configurações
-MONGO_URL = "mongodb://localhost:27017/"
-DB_NAME = "cinema"
-COLLECTION_NAME = "filmes"
+MONGO_URL = "PORTA"
+DB_NAME = "DATABASE_NAME"
+COLLECTION_NAME = "COLLECTION_NAME"
 CSV_FILE = 'movies.csv'
 
 with MongoClient(MONGO_URL) as cliente:
